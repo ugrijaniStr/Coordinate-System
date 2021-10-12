@@ -2,10 +2,14 @@
 
 int main() {
     int x,y,z;
-    int i,j;
+    int i,j,l;
+    int s;
     for(x = 0; x <=0; ++x) {
         for(y = 0; y < 6; y++) {
-            printf("                        |");
+            for(l = 0; l < 23; l++) {
+                printf(" ");
+            }
+            printf("|");
             printf("\n");
         }
         for(z = 0; z < 56; z++) {
@@ -18,7 +22,10 @@ int main() {
         }
         for(i = 0; i <= 0; i++) {
             for(j = 0; j < 6; ++j) {
-                printf("                        |");
+                for(s = 0; s < 23; s++) {
+                    printf(" ");
+                }
+                printf("|");
                 printf("\n");
             }
         }
